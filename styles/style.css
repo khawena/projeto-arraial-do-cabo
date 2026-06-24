@@ -19,8 +19,8 @@
 body {
     font-weight: 300;
     font-size: 100%;
-    height: 100vh;
     background-image: url(/img/Arraial\ do\ Cabo.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -101,3 +101,71 @@ body {
     padding: 15px;
 }
 
+.grid_container, .grid_container-praias {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 20%);
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.grid_container-praias {
+    grid-template-columns: repeat(4, 4, 20%);
+}
+
+.titulo-sem-espaco {
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    font-size: 40px;
+    color: var(--cor-principal);
+    padding: 15px;
+}
+
+.container {
+    background-color: rgba(255,255,255,0.08);
+    width: 250px;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.container:hover {
+    transform: translateY(-10px);
+}
+
+.container_imagem, .praias_imagem {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+h3 {
+    color: var(--cor-destaque);
+    font-family: var(--fonte-titulo);
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.conteudo_container {
+    display: none;
+}
+
+input:checked~.conteudo_container {
+    display:block;
+}
+
+.container_natureza, .container_aventura, .container_cultura, .container_fotografia, .container_praias {
+    display: none;
+}
+
+.lista_conteudo {
+    list-style: none;
+}
+
+ .texto-conteudo_container, .lista-item {
+    font-family: var(--fonte-texto);
+    color: #000000;
+    font-size: 13px;
+ }
