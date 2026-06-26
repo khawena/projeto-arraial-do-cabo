@@ -19,7 +19,7 @@
 body {
     font-weight: 300;
     font-size: 100%;
-    background-image: url(/img/Arraial\ do\ Cabo.jpg);
+    background-image: url("/img/Arraial\ do\ Cabo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
