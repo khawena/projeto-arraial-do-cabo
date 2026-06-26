@@ -89,13 +89,17 @@ body {
 
 }
 
-.sobre {
+.sobre, .planejador {
     display: flex;
     gap: 30px;
     margin: 0px 30px;
 }
 
-.sobre_cidade {
+.planejador {
+    justify-content: center;
+}
+
+.sobre_cidade, .container_planejador {
     background-color: rgba(255,255,255,0.08);
     border-radius: 15px;
     padding: 15px;
