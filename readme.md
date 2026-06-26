@@ -11,19 +11,28 @@ Praias
 Planejador de viagem  
 
 ## 🖼️ Demonstração
-<p align="center">
-  <strong>Início</strong><br>
-  <img src="/img/readme/01-início.png" width="45%">
-  <strong>A cidade</strong><br>
-  <img src="/img/readme/02-a-cidade.png" width="45%">
-</p>
-
-<p align="center">
-  <strong>Experiências</strong><br>
-  <img src="/img/readme/03-experiências.png" width="45%">
-  <strong>Praias</strong><br>
-  <img src="/img/readme/04-praias.png" width="45%">
-</p>
+<table align="center">
+  <tr>
+    <td align="center">
+      <strong>Início</strong><br>
+      <img src="/img/readme/01-início.png" width="350">
+    </td>
+    <td align="center">
+      <strong>A cidade</strong><br>
+      <img src="/img/readme/02-a-cidade.png" width="350">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Experiências</strong><br>
+      <img src="/img/readme/03-experiências.png" width="350">
+    </td>
+    <td align="center">
+      <strong>Praias</strong><br>
+      <img src="/img/readme/04-praias.png" width="350">
+    </td>
+  </tr>
+</table>
 
 ## 💡 Processo de desenvolvimento 
 Nas duas primeiras páginas utilizei Flexbox, enquanto nas duas seguintes utilizei CSS Grid. Acredito que cada página pedia uma abordagem diferente.  
