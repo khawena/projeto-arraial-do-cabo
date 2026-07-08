@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "name": "projeto-arraial-do-cabo",
+  "version": "1.0.0",
+  "description": "Este projeto Front-end demonstra os avanços que obtive no desenvolvimento de interfaces visuais. Tomei como ponto de partida a ideia de criar um portal que apresentasse a cidade de Arraial do Cabo e as experiências que podem ser vivenciadas nela. Optei por um design que destacasse as belezas naturais. \r O projeto concentra-se nas experiências que Arraial do Cabo oferece aos visitantes. Por isso, informações sobre hospedagem, alimentação e passagens não fazem parte desta versão.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khawena/projeto-arraial-do-cabo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/khawena/projeto-arraial-do-cabo/issues"
+  },
+  "homepage": "https://github.com/khawena/projeto-arraial-do-cabo#readme"
+}
