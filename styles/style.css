@@ -30,6 +30,18 @@ body {
     padding: 15px;
 }
 
+.botao_menu {
+    display: none;
+    border-color: var(--cor-secundaria);
+    background-color: rgba(11, 100, 173, 0.15);
+    color: var(--cor-principal);
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-family: var(--fonte-titulo);
+    font-weight: 100;
+    font-size: 20px;
+}
+
 .cabecalho_menu {
     display: flex;
     gap: 20px;
@@ -48,7 +60,7 @@ body {
 }
 
 .menu_link:hover {
-    border-color: #287FC2;
+    border-color: var(--cor-secundaria);
     background-color: rgba(11, 100, 173, 0.25);
     cursor: pointer;
 }
@@ -100,7 +112,7 @@ body {
 }
 
 .sobre_cidade, .container_planejador {
-    background-color: rgba(255,255,255,0.08);
+    background-color: rgba(255,255,255,0.25);
     border-radius: 15px;
     padding: 15px;
 }
@@ -127,7 +139,7 @@ body {
 }
 
 .container {
-    background-color: rgba(255,255,255,0.08);
+    background-color: rgba(255,255,255,0.25);
     width: 250px;
     border-radius: 15px;
     padding: 15px;
@@ -168,13 +180,66 @@ input:checked~.conteudo_container {
     list-style: none;
 }
 
- .texto-conteudo_container, .lista-item {
-    font-family: var(--fonte-texto);
-    color: #000000;
-    font-size: 13px;
+ .texto-conteudo_container, .lista-item, p {
+    font-size: 16px;
  }
 
- @media (max-width: 890px) {
+ @media (max-width: 768px) {
+    body {
+        background-repeat: repeat;
+        background-size: cover;
+    }
+
+    .cabecalho {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .cabecalho_menu {
+        display: none;
+    }
+
+    .cabecalho_menu.aberto {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 0px;
+    }
+
+    .menu_link {
+        white-space: nowrap;
+        padding: 5px;
+    }
+
+    .botao_menu {
+        display: block;
+    }
+
+    .grid_container, .grid_container-praias {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    }  
+
+    .container {
+        width: 150px;
+        align-items: center;        
+    }
+
+    .container_imagem, .praias_imagem {
+        width: 120px;
+        height: 120px;
+        align-items: center;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+ }
+
+ /*@media (max-width: 890px) {
     body {
         min-height: 100vh;
         background-attachment: scroll; 

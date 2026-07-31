@@ -150,7 +150,7 @@ tipo: 'cultura',
 categoria: '4',
 valor: 0,
 duracao: 120,
-horarioFuncionamento: '16:00 a 22:00',
+horarioFuncionamento: '08:00 a 17:00',
 diasFuncionamento: ['segunda', 'terca', 'quarta', 'quinta', 'sexta', 'sabado', 'domingo'],
 permiteCriancas: 'sim',
 quantidadePessoas: ['individual, dupla, grupo']
